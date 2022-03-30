@@ -1,27 +1,15 @@
 body {
   text-align: center;
   background-color: white;
-  margin: 0;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 hr {
+  background-color: white;
   border: dotted #66BFBF 6px;
-  width: 4%;
+  width: 4rem;
   border-bottom: none;
-  margin: 100px auto;
-}
-
-h1 {
-  font-family: 'WindSong', cursive;
-  color: #66BFBF;
-  font-size: 90px;
-}
-
-h2 {
-  font-family: 'Noto Serif', serif;
-  color: #66BFBF;
-  font-size: 45px;
+  margin: 100px auto
 }
 
 h3 {
@@ -30,144 +18,286 @@ h3 {
   font-size: 30px;
 }
 
-.topbody {
-  background-color: #EFFFFD;
+/* firstcontainer */
+.first-container {
+  padding: 50px 0;
+}
+
+.first {
+  font-family: 'WindSong', cursive;
+  color: #66BFBF;
+  font-size: 90px;
+  position: relative;
+}
+
+.first1 {
+  font-family: 'Noto Serif', serif;
+  color: #66BFBF;
+  font-size: 45px;
+  position: relative;
+}
+
+.first-box {
+  padding: 50px 0;
+  position: relative;
 }
 
 .top {
   position: absolute;
-  right: 40px;
-  top: 250px;
-  height: 180px;
-  width: 350px
-}
-
-.intro {
-  width: 50%;
-  font-size: 24px;
-  margin: auto;
-  line-height: 2;
+  right: 2.5rem;
+  top: 15.625rem;
+  height: 11.25rem;
+  width: 21.875rem;
 }
 
 .bottom {
   position: absolute;
-  left: 20px;
-  top: 30px;
-  height: 180px;
-  width: 380px
+  left: 1.25rem;
+  top: 1.875rem;
+  height: 11.25rem;
+  width: 21.875rem;
 }
 
 .mountain {
   position: relative;
-  height: 550px;
-  width: 1550px;
-  right: 1px;
-  top: 250px;
+  height: 34.375rem;
+  width: 90.875rem;
+  right: 0.0625rem;
 }
 
 .text {
   position: absolute;
-  top: 100px;
-  left: 700px;
+  top: 6.25rem;
+  left: 43.75rem;
 }
 
-.img1 {
-  position: relative;
-  width: 35%;
-  float: none;
-  margin-top: 200px;
-  border-radius: 30px;
+/* profile */
+.profile {
+  padding: 2% 15%;
+  text-align: center;
 }
 
-.img2 {
-  position: relative;
-  width: 25%;
-  float: left;
-  margin-right: 50px;
-}
-
-.img3 {
-  position: relative;
-  width: 25%;
-  float: right;
-  margin-left: 50px;
-}
-.img4 {
-  position: relative;
-  width: 25%;
-  float: left;
-  margin-right: 50px;}
-
-.bottom-container {
-  color: #11999E;
-}
-
-.skill-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
-  text-align: left;
+.intro {
+  font-size: 1.5rem;
+  margin: 20px 100px;
   line-height: 2;
 }
 
-.profile {
-  width: 50%;
-  margin: 100px auto 100px auto;
+.profileimg {
+  position: relative;
+  width: 25%;
+  border-radius: 50%;
+  margin-bottom: 20px;
 }
 
-.btn {margin-bottom: 10px;
-  background: #66BFBF;
-  background-image: -webkit-linear-gradient(top, #66BFBF, #2980b9);
-  background-image: -moz-linear-gradient(top, #66BFBF, #2980b9);
-  background-image: -ms-linear-gradient(top, #66BFBF, #2980b9);
-  background-image: -o-linear-gradient(top, #66BFBF, #2980b9);
-  background-image: linear-gradient(to bottom, #66BFBF, #2980b9);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 8px;
-  font-family: Arial;
-  color: #ffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
+/* skills */
+
+.skillimg {
+  position: relative;
+  width: 15%;
+  float: right;
+  margin-left: 50px;
 }
 
-.btn:hover {
-  background: #66BFBF;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-  text-decoration: none;
+.skill-row {
+  text-align: left;
+  margin: 150px 100px;
 }
 
+.skills {
+  text-align: center;
+  padding: 0 250px;
+  background-color:  #66BFBF;
+}
+
+/* contactme */
 .contactme {
-  width: 50%;
   padding-bottom: 200px;
   text-align: left;
   line-height: 2;
 }
 
-.bottom-container {
-  margin-top: 100px;
-  padding-top: 50px;
+/* bottom container */
+#bottom-container {
   background-color: black;
-
+  padding: 50px;
+  text-align: center;
+  margin-top: 50px;
 }
 
-a {
+.footer-link {
   text-decoration: none;
   margin: 20px;
   color: #66BFBF;
   font-family: sans-serif;
 }
 
-a:hover {
+.footer-link:hover {
   color: white;
 }
 
-.color {
+.footer-icon {
+  margin: 20px;
+  color: #66BFBF;
+  text-align: center;
+}
+
+.footer-icon:hover {
+  color: white;
+}
+
+.textcolor {
   color: #EAF6F6;
   text-align: center;
-  padding: 50px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+/* mobile */
+@media (max-width: 500px) {
+
+  /* firstcontainer */
+  .first-container {
+    padding: 20px 0;
+  }
+
+  .first {
+    font-family: 'WindSong', cursive;
+    color: #66BFBF;
+    font-size: 50px;
+    position: relative;
+  }
+
+  .first1 {
+    font-family: 'Noto Serif', serif;
+    color: #66BFBF;
+    font-size: 30px;
+    position: relative;
+  }
+
+  .first-box {
+    padding: 10px 0;
+    position: relative;
+  }
+
+  .top {
+    position: absolute;
+    right: 2.5rem;
+    top: 150px;
+    height: 60px;
+    width: 125px;
+  }
+
+  .bottom {
+    position: absolute;
+    left: 7px;
+    top: 85px;
+    height: 60px;
+    width: 125px;
+  }
+
+  .mountain {
+    position: relative;
+    height: 250px;
+    width: 470px;
+  }
+
+  .text {
+    position: absolute;
+    top: 6.25rem;
+    left: 43.75rem;
+  }
+
+  /* profile */
+  .profile {
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .intro {
+    font-size: 20px;
+    margin: 20px 100px;
+    line-height: 2;
+  }
+
+  .profileimg {
+    position: relative;
+    width: 25%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+
+  /* skills */
+
+  .skill-h3{color: black;}
+  .skillimg {
+    position: relative;
+    width: 150px;
+    margin-right: 45px;
+    margin-bottom: 20px;
+  }
+
+  .skill-row {
+    text-align: center;
+    font-family: "montseerat" sans-serif;
+    font-size: 18px;
+    line-height: 2;
+    color: white;
+  }
+
+  .skills {
+    text-align: center;
+    padding: 0 20px;
+    background-color: #66BFBF;
+  }
+
+  /* contactme */
+  .contactme {
+
+    text-align: left;
+    line-height: 2;
+  }
+
+  /* bottom container */
+  #bottom-container {
+    background-color: black;
+    padding: 25px;
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  .footer-link {
+    font-size: 14px;
+    text-decoration: none;
+    margin: 20px;
+    color: #66BFBF;
+    font-family: sans-serif;
+  }
+
+  .footer-link:hover {
+    color: white;
+  }
+
+  .footer-icon {
+    margin: 20px;
+    color: #66BFBF;
+    text-align: center;
+  }
+
+  .footer-icon:hover {
+    color: white;
+  }
+
+  .textcolor {
+    color: #EAF6F6;
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
+  }
+  hr {
+    background-color: white;
+    border: dotted #66BFBF 6px;
+    width: 4rem;
+    border-bottom: none;
+    margin:20px auto
 }
